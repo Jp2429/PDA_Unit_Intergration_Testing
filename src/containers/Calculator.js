@@ -95,7 +95,7 @@ function App() {
   const divide = (number) => {
     let calculatedNumber
     if (parseFloat(number)===0){
-      calculatedNumber=0
+      calculatedNumber="Error"
       setRunningTotal(calculatedNumber);
       setCalculatedTotal(calculatedNumber);
     }else{
